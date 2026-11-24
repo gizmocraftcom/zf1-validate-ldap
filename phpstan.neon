@@ -4,6 +4,7 @@ parameters:
         - ./
     excludePaths:
         - %rootDir%/../../../vendor/*
+        - %rootDir%/../../../tests/*
     ignoreErrors:
         -
             identifier: missingType.iterableValue
